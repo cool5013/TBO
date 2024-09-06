@@ -1,9 +1,7 @@
 local codes = {
-    "MOTHERSDAY2024";
-    "CROW";
-    "RUBY";
-    "HOUSES";
-    "MILITARY";
+    "UNICRON";
+    "CAT";
+    "METAL";
     "BLAZE";
-    "PENGUIN";
+    "RACE";
 }
