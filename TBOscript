@@ -4,6 +4,7 @@ if identifyexecutor() == "Delta" then
         Text = "Delta is not supported",
         Duration = 5
     })
+    setclipboard(https://discord.gg/jwYqu66bqm)
 else
     loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
 end
