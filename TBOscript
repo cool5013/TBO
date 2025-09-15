@@ -1,1 +1,9 @@
-loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
+if identifyexecutor() == "Delta" then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Unsupported Executor",
+        Text = "Delta is not supported",
+        Duration = 5
+    })
+else
+    loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
+end
