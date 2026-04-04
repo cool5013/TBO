@@ -1,1 +1,10 @@
-loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
+local success, err = pcall(function()
+    loadstring(game:HttpGet("https://peeky.pythonanywhere.com/DaHoodGui"))()
+end)
+if not success then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "TBO is down",
+        Text = "The script is currently down. Join the Discord to stay updated: https://discord.gg/jwYqu66bqm",
+        Duration = 10
+    })
+end
