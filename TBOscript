@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://peeky.helioho.st/script/DaHoodGui"))()
+loadstring(game:HttpGet("https://peeky2.helioho.st/script/DaHoodGui"))()
